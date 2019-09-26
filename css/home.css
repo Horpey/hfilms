@@ -64,7 +64,7 @@ nav img {
 }
 
 nav.navbar {
-  background-color: var(--primary-color);
+  background-color: #141d26;
 }
 
 .navbar .nav li {
@@ -75,12 +75,12 @@ nav.navbar {
 }
 
 .navbar .nav li:hover {
-  background: #001;
+  background: #286090;
   cursor: pointer;
 }
 
 ul li ul.dropdown {
-  background: #444;
+  background: #888282;
   visibility: hidden;
   opacity: 0;
   min-width: 7rem;
@@ -101,4 +101,44 @@ ul li ul:hover {
 ul li ul li {
   clear: both;
   width: 100%;
+}
+
+.btn {
+  display: inline-block;
+  background: #286090;
+  color: #fff;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  border-radius: 30px;
+}
+.btn:hover {
+  background: #1d507e;
+}
+.section-a {
+  background: #1b2836;
+}
+
+.section-a .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 7rem;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem 0;
+}
+
+.section-a h1 {
+  font-size: 4rem;
+  color: #fff;
+}
+
+.section-a p {
+  color: #f9f8f8;
+  margin: 1rem 0;
+}
+
+.section-a img {
+  width: 75%;
 }
